@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "bkankim-plugins",
+  "description": "Bkankim's Claude Code plugins. Currently: smartthink (context arming engine built on mental-model references).",
+  "owner": { "name": "Bkankim", "url": "https://github.com/Bkankim" },
+  "plugins": [
+    {
+      "name": "smartthink",
+      "description": "Context arming engine: Cynefin-routed loading of only the mental-model references your task needs (81 models, 12 engines, TRIZ), task-specific research synthesized into an armory pack, session primed before you start. Korean-first references. v3 is in development on the v3 branch.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Bkankim/smartthink.git",
+        "sha": "52ec572e99e18a0649dfc5594c432184f01d9335"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/Bkankim/smartthink",
+      "tags": ["mental-models", "context-engineering", "thinking", "cynefin", "triz", "korean"]
+    }
+  ]
+}
